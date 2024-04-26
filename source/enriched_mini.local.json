@@ -1,0 +1,552 @@
+  [{
+    "content": {
+      "enriched": [
+        {
+          "question": "Où trouver le nom de mon réseau WiFi et mon mot de passe ?",
+          "answer": "Selon le modèle, ces informations se trouvent sur l'étiquette située sous la box internet ou au verso de la carte glissée au-dessus de la Bbox.\nSur l'étiquette située sous ma box internet\nSur la carte glissée au-dessus de ma box internet\nVous avez modifié votre mot de passe WiFi ? Vous pouvez le retrouver sur votre application mobile dans \"Accueil\" puis \"Configurer ma Bbox\" dans la partie \"Mon WiFi\".\n"
+        },
+        {
+          "question": "Comment connecter mon ordinateur à ma box internet en WiFi ?",
+          "answer": "Pour connecter mon ordinateur à Internet en WiFi, il faut être méthodique !\n1 Selon mon modèle de box internet, je vérifie que le voyant WiFi est allumé en vert fixe ou blanc ou que le symbole WiFi apparaît sur mon écran.\n2 J'active ensuite la  connexion WiFi  depuis mon ordinateur :\nWindows 7 : menu \"Démarrer\" puis \"Panneau de configuration\" puis \"Réseau et Internet\" et enfin \"Connexion à un réseau\".\nWindows 8 : je clique 2 fois sur l’icône \"Réseaux\" située dans la barre des tâches en bas à droite de l’écran puis je sélectionne mon réseau.\nWindows 10 : je clique sur l'icône \"Réseaux\" dans la barre de tâche en bas de l'écran puis je sélectionne mon réseau.\nMac OS : sur l'icône WiFi en haut à droite, je sélectionne mon réseau WiFi.\n3 Je sélectionne le nom du réseau WiFi (SSID) et saisis la clé de sécurité (WPA).\n"
+        },
+        {
+          "question": "Comment relier mon ordinateur à ma box internet par câble Ethernet ?",
+          "answer": "En fonction de votre modèle, la box internet peut être différente. Les ports de branchement ne changent pas, on vous rassure !\nEtape 1\nJe branche le câble Ethernet sur le port Eth1 (port jaune) au dos de ma box internet.Pour brancher plusieurs équipements par câble, j'utilise les ports Eth2 et Eth3.\nEtape 2\nJe branche l’autre partie du câble Ethernet à mon ordinateur.Je patiente quelques minutes pour que la connexion entre mon ordinateur et ma box internet s'établisse.\nEtape 3\nEt voilà, mon ordinateur est bien relié à ma box internet. Le voyant \"Ethernet\" à l’avant de ma box internet s'allume en vert.\n"
+        },
+        {
+          "question": "Comment relier mon ordinateur à ma box internet mini ADSL ?",
+          "answer": "Assez simplement en utilisant un câble Ethernet :\n1 Je branche le câble Ethernet sur le port jaune de ma box internet et patiente quelques minutes pour que la connexion s'établisse.\n2 Je branche l’autre partie du câble Ethernet à mon ordinateur. Tout est en ordre quand le symbole WiFi ou un point apparaît sur ma box internet.\nPour brancher plusieurs ordinateurs ou autres équipements par câble, il me suffit d’utiliser une multiprise Ethernet (non fournie).\n"
+        },
+        {
+          "question": "Comment raccorder mon ordinateur à ma box internet avec des prises CPL ?",
+          "answer": "Etape 1\nDans la pièce où se trouve ma box internet, je branche une extrémité du câble Ethernet sur le port Ethernet (port jaune) et l'autre extrémité sur l'une des deux prises CPL.Je branche cette prise CPL sur une prise électrique (directement sur une prise murale).\nEtape 2\nDans la pièce où se trouve mon ordinateur, je branche une extrémité du câble Ethernet au port Ethernet de mon ordinateur et l'autre extrémité sur la seconde prise CPL.Je branche cette prise CPL sur une prise électrique murale.\n"
+        },
+        {
+          "question": "Que dois-je choisir entre une connexion Ethernet et WiFi ? ",
+          "answer": "Pour connecter mon ordinateur à Internet j'ai 2 possibilités.\nWiFi : lors d’un problème lié à mon ordinateur principal, si je souhaite utiliser Internet sur mon appareil mobile, si un problème de câble Ethernet survient.\nEthernet : si j'ai un ordinateur de bureau fixe, si j'ai une vitesse de connexion instable ou lente, pour garantir une connexion 100% sécurisée.\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC1p000000GmuiGAC",
+      "title": "Connecter mon ordinateur à Internet",
+      "requirements": "Mon ordinateur (PC ou Mac)\r\nMon box internet\r\nMon câble Ethernet ou mon code WiFi\r\nMes prises CPL (Courant Porteur en Ligne) : si ma box internet et mon ordinateur sont trop éloignés",
+      "summary": "Vous hésitez entre connexion filaire (Ethernet) ou connexion sans fil (WiFi) pour votre ordinateur ? Nous vous expliquons les avantages des deux méthodes et surtout la marche à suivre pour vous connecter à coup sûr ! On y va ?",
+      "date": "2024-03-18T09:57:00.000+0000",
+      "targets": {
+        "url_name": "raccordement-ordinateur-bbox",
+        "category": "bbox-tv",
+        "breadcrumbs": [
+          "Débuter avec votre Bbox",
+          "raccordement-equipements-bbox",
+          "internet-bbox"
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/raccordement-ordinateur-bbox"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Je veux découvrir mon interface TV en vidéo, est-ce possible ?",
+          "answer": "Dans cette vidéo, vous découvrirez l'essentiel de vos services TV ! Assistant Google, programmes TV, enregistrements, replays, VOD, Google Play Store …\n\n"
+        },
+        {
+          "question": "Comment se déplacer dans l'interface de mon décodeur TV Bbox 4K ou Bbox Miami avec ma télécommande ?",
+          "answer": "A chaque fois que j'allume mon décodeur TV Bbox 4K ou Bbox Miami, ma TV démarre sur la page d'accueil.\nJ'utilise les flèches directionnelles pour naviguer dans les différentes rubriques.\nJ'appuie sur \"OK\" ou sur la flèche droite pour accéder aux sous-rubriques.\nPour retrouver ma page d'accueil j'appuie sur la touche Home .\n"
+        },
+        {
+          "question": "Que vais-je trouver sur la \"Page d'accueil\" ?",
+          "answer": "Elle affiche les vidéos à la demande (VOD), mes contenus TV personnalisés \"TV pour vous\" et les abonnements TV disponibles, mes contenus en cours de lecture, les astuces…\n\n"
+        },
+        {
+          "question": "Comment fonctionne le \"Moteur de suggestions\" de ma TV ?",
+          "answer": "Pour découvrir tous les contenus TV personnalisés en fonction de mes envies et de mes usages sur la Page d'accueil.\n\"TV pour vous\" propose des contenus similaires aux programmes TV que j'ai regardés.\n\"VOD à la une\" suggère des vidéos à la demande adaptées à mon envie du moment et à mes goûts.\n"
+        },
+        {
+          "question": "Rubrique \"Programme TV\" : qu'est-ce que je retrouve ? ",
+          "answer": "Vous retrouvez l'ensemble des programmes TV, regroupés dans différentes rubriques.\nLa rubrique \"En ce moment\" rassemble les programmes en direct.\nUne fonction filtre pour regrouper les programmes \"par genre\" (cinéma, séries, sport...).\nLes rubriques \"Ce soir\" et \"Suite de la soirée\" correspondent aux programmes TV disponibles à partir de 20h.\n"
+        },
+        {
+          "question": "Rubrique \"Abonnements TV\" : qu'est-ce que je retrouve ? ",
+          "answer": "La rubrique \"Abonnements TV\" affiche les bouquets de chaînes payantes disponibles dans \"Tous\" et ceux que j'ai déjà achetés dans \"Mes abonnements\". \nPour y accéder plus rapidement, j'appuie sur la touche \"Micro\"  de la télécommande et je demande \"Quels sont mes abonnements TV ?\", \"Ouvre Netflix !\".\n"
+        },
+        {
+          "question": "Rubrique \"VOD\" : qu'est-ce que je retrouve ? ",
+          "answer": "Le catalogue compte plus de 5 000 vidéos à la demande. Je trouve facilement une VOD grâce à la fonction \"Recherche\" :\nJe tape le film ou la série que je cherche.\nJ'appuie sur la touche \"Micro\"  de ma télécommande et je demande \"Montre-moi Brice de Nice\", \"Affiche des films d'action\" ou \"Je veux voir des films avec Jean Dujardin\".\nDe plus, elle regroupe les films ou séries que j'ai loués dans \"Mes VOD\".\n\n"
+        },
+        {
+          "question": "Rubrique \"Replay\" : qu'est-ce que je retrouve ? ",
+          "answer": "Elle rassemble l'ensemble des programmes TV disponibles à la demande en rediffusion.\nPour accéder à mes replays préférés plus rapidement, j'appuie sur la touche \"Micro\"  de ma télécommande et je demande, par exemple, \"Ouvre mes replays ?\" ou \"Je veux voir les replays d'hier soir sur Arte !\".\n\n"
+        },
+        {
+          "question": "Rubrique \"Apps & Jeux\" : qu'est-ce que je retrouve ? ",
+          "answer": "Elle m’offre l'accès au Google Play Store (pour télécharger mes applications et jeux) et au reste des applications et jeux déjà installés sur mon décodeur TV Bbox.\nPour accéder plus rapidement à mes applications favorites, j'appuie sur la touche \"Micro\"  de ma télécommande et je dis, par exemple, \"Montre-moi mes applications ?\", \"Ouvre mes applications\" ouvre \"Ouvre Netflix\".\n"
+        },
+        {
+          "question": "Rubrique \"Enregistrements\" : qu'est-ce que je retrouve ? ",
+          "answer": "Elle affiche la liste de mes enregistrements TV (accessibles lorsque le support sur lequel ils sont enregistrés est connecté).\n"
+        },
+        {
+          "question": "Quelles sont les touches spécifiques de ma télécommande Bbox 4K ?",
+          "answer": "La touche  de la télécommande donne accès aux paramètres d'accessibilité ou permet d'ajouter la chaîne concernée en favoris.\nLa touche  de la télécommande donne un accès rapide vers mes VOD, replays et enregistrements. \n"
+        },
+        {
+          "question": "Quelles sont les touches spécifiques de ma télécommande Bbox Miami ?",
+          "answer": "La touche   de la télécommande donne accès aux paramètres d'accessibilité ou permet d'ajouter la chaîne concernée en favoris.\nLa touche  de la télécommande me permet de mettre Play/Pause sur mon programme.\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC1p000000GmstGAC",
+      "title": "Découvrir l'interface TV Bbox 4K ou Miami grâce à ma télécommande",
+      "requirements": "Ma TV \r\nMon décodeur TV Bbox 4K ou Bbox Miami",
+      "summary": "Votre décodeur TV Bbox 4K ou Bbox Miami vous offre une interface de navigation fluide, réactive et facile à utiliser, avec une télécommande simplifiée. Le menu TV vous permet d'accéder à tous les contenus TV, services et fonctionnalités. Nous vous en révélons tous les secrets. C'est parti !",
+      "date": "2018-06-14T22:38:42.000+0000",
+      "targets": {
+        "url_name": "interface-tv-telecommande-bbox-miami",
+        "category": "bbox-tv",
+        "breadcrumbs": [
+          "Débuter avec votre décodeur Bbox TV",
+          "utiliser-telecommande-bbox",
+          "tv-bbox"
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/interface-tv-telecommande-bbox-miami"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Quel est le prix de l'option FILMO ?",
+          "answer": "FILMO vous est offert le 1er mois puis à 6,99€ par mois, sans engagement.  \n"
+        },
+        {
+          "question": "Comment souscrire à FILMO depuis mon espace client ?",
+          "answer": "Depuis votre [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client) :\n1 Dans \"Lignes\" je sélectionne \"Options\".\n2 Je clique sur \"Enrichir mon offre\".\n3 Dans \"Services TV\" je clique sur \"Cinéma & Séries\".\n4 Sur \"FILMO\" je clique sur \"Découvrir\".\n5 Je clique sur \"Souscrire\" puis sur \"Je valide\". Un SMS et un e-mail de confirmation me sont envoyés !\nDepuis votre espace client web, c'est également possible. Vous y accédez depuis [cette page](https://www.bouyguestelecom.fr/mon-compte/voirlesoptionsfai/) et suivez les étapes (à partir de la 3e) de l'application mobile.\n"
+        },
+        {
+          "question": "Comment souscrire à FILMO depuis mon décodeur TV ?",
+          "answer": "Depuis votre [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client) :\n1 Dans \"Abonnements\" je choisis \"FILMO\".\n2 Je clique sur \"Souscrire\" et indique mon [code d'achat](https://www.assistance.bouyguestelecom.fr/s/article/modifier-code-achat-tv-bbox) pour valider.\n3 Un message de souscription s'affiche sur ma TV.\n4 Et voilà ! Je peux accéder à l'ensemble de mes contenus.\n"
+        },
+        {
+          "question": "Comment accéder à mes contenus FILMO ?",
+          "answer": "FILMO est accessible depuis la chaînes 90 de mon décodeur TV.\nAprès votre souscription, vous pourrez également [synchroniser votre compte](https://www.filmotv.fr/deja-abonnee.html) pour retrouver tous vos films depuis l'application dédiée (iOS et Android).\n"
+        },
+        {
+          "question": "Comment me désabonner de FILMO depuis mon espace client ?",
+          "answer": "Depuis votre [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client) :\n1 Dans \"Lignes\" je sélectionne \"Options\".\n2 Dans \"Mes options détenues\" je choisis \"FILMO\".\n3 Je clique sur \"Je veux résilier\" puis je confirme mon choix.\n4 J'accèderai à FILMO jusqu'à la fin du mois en cours.\nDepuis votre [espace client web](https://www.bouyguestelecom.fr/mon-compte/offre/), dans \"Mes options\" je choisis FILMO et me laisse guider jusqu'à la confirmation de résiliation.\n"
+        },
+        {
+          "question": "Comment me désabonner de FILMO depuis mon décodeur TV ?",
+          "answer": "1 Dans \"Abonnements\" je clique sur \"FILMO\".\n2 Je clique sur \"Gérer mon abonnement\" et inscris mon [code d'achat](https://www.assistance.bouyguestelecom.fr/s/article/modifier-code-achat-tv-bbox).\n3 Je confirme ma résiliation. FILMO sera accessible jusqu'à la remise à zéro de mon offre Bbox (prochaine facturation).\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC67000000k9xdGAA",
+      "title": "FILMO : le meilleur du streaming pour les cinéphiles",
+      "requirements": "Mon offre Bbox (hors Smart TV)",
+      "summary": "<p>Avec FILMO vous accédez en illimité à une bibliothèque de films à la demande depuis votre décodeur TV, ordinateur ou smartphone. Des nouveautés chaque semaine et des exclusivités tous les mois sont à découvrir dès maintenant. C'est parti !</p>",
+      "date": "2024-03-15T09:13:37.000+0000",
+      "targets": {
+        "url_name": "filmo-cinema",
+        "category": "offre-factures",
+        "breadcrumbs": [
+          null,
+          null,
+          null
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/filmo-cinema"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Quel est le prix des offres CANAL+ ?",
+          "answer": "Je peux souscrire à l'une des 4 offres suivantes (engagement 24 mois) :\nCANAL+ à 22,99€ par mois pendant 12 mois puis 27,99€ par mois.\nCANAL+ Ciné Séries à 29,99€ par mois pendant 12 mois puis 38,99€, pour ne rien rater de vos films et séries préférées, en famille en duo ou même en solo.\nCANAL+ Sport à 29,99€ par mois pendant 12 mois puis 45,99€, pour vivre les plus grandes compétitions sportives (foot, rugby, sports mécaniques...) en direct et en intégralité.\nCanal+ sans CANAL+ à la demande à 20,99€ par mois pendant 12 mois puis 25,99€ par mois.\nEt en prime ? L'Option TV+ est automatiquement incluse. Elle est gratuite les 2 premiers mois, puis automatiquement résiliée. Si vous souhaitez la réactiver, elle sera à 10€ par mois sans engagement ! Divertissement, jeunesse, cinéma... Il y en a pour tous les goûts.\n"
+        },
+        {
+          "question": "Comment souscrire à CANAL+ depuis mon espace client ?",
+          "answer": "En 2 temps, 3 mouvements depuis mon [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client) :\n1 Dans \"Lignes\" puis \"Options\", je clique sur \"Enrichir mon offre\".\n2 Je vais dans \"Services TV\" puis je choisis \"CANAL+\".\n3 Je choisis mon offre en cliquant sur \"Choisir cette offre\" puis \"Souscrire cette offre\".\n4 Ensuite ? Je recevrai un SMS et un e-mail de confirmation avec toutes les informations contractuelles.\nDepuis votre espace client web ? En cliquant [juste ici](https://www.bouyguestelecom.fr/mon-compte/voirlesoptionsfai/) vous pourrez choisir votre offre CANAL+ et vous laisser guider jusqu'à la confirmation.\n"
+        },
+        {
+          "question": "Comment souscrire aux chaînes CANAL+ depuis ma Bbox 4K ou Miami ?",
+          "answer": "Pour souscrire aux chaînes CANAL+ sur ma Bbox 4K ou Miami :\n1 Depuis \"Abonnements\" je choisis le bouquet CANAL+.\n2 Je me laisse guider par les indications au sein de l'application.\n3 Ensuite ? J'appuie sur la touche TV de ma télécommande, puis je relance CANAL+ pour profiter de mes programmes.\nSi je détiens une offre Bbox Smart TV, je ne peux pas souscrire aux offres CANAL+.\n"
+        },
+        {
+          "question": "J'ai déjà un abonnement CANAL+, comment faire ?",
+          "answer": "Pour utiliser CANAL+, vous devez simplement transférer vos droits vers votre nouvelle Bbox.\n1 Depuis mon [espace client web](https://www.bouyguestelecom.fr/mon-compte/) dans \"Mon offre\", je clique sur \"Obtenir mon identifiant TV Canal\".\n2 Mon identifiant Bouygues CANAL+ s'affiche.\n3 Je me rends ensuite sur mon [espace client CANAL+](https://client.canalplus.com/) et je m'identifie.\n4 Je sélectionne la rubrique \"Matériel\" puis je choisis :\n\"Déclarer un changement d'opérateur\" si je viens de changer d'opérateur.\n\"Déclarer un changement de réception câble, fibre ou ADSL\" si je viens de changer de technologie (ADSL ou fibre).\n5 Après le transfert de mes droits, je patiente quelques minutes et j'effectue une coupure électrique de mon décodeur TV puis je le redémarre.\n"
+        },
+        {
+          "question": "Comment accéder à CANAL+ depuis ma TV ?",
+          "answer": "Depuis mon décodeur TV Bbox Miami, 4K, 4K HDR en sélectionnant les chaînes 4, 40, 41, 42, 43, 44, 106 et 130 ou depuis l'application CANAL+ dans la rubrique \"Apps & Jeux\".\n"
+        },
+        {
+          "question": "A partir de quand mes services CANAL+ sont-ils disponibles ?",
+          "answer": "CANAL+ est disponible sous 48 heures maximum après ma souscription.\nEnvie de profiter immédiatement de vos contenus ? Vous pouvez redémarrer électriquement votre décodeur TV Bbox.\n"
+        },
+        {
+          "question": "Comment accéder aux chaînes CANAL+ sur mon smartphone, tablette ou ordinateur ?",
+          "answer": "CANAL+ a rassemblé le meilleur de ses contenus dans [myCANAL](https://boutique.canalplus.com/recevoir-canal/). \nTous mes programmes, en live et à la demande, sont disponibles partout et quand je le souhaite ! Selon mon abonnement, je peux accéder à myCANAL sur 4 écrans en simultané (ordinateur, smartphone et tablette).\nmyCANAL est également disponible en application depuis l'[Apple Store](https://apps.apple.com/fr/app/mycanal/id694580816) (iOS 14.0 ou ultérieure) et le [Google Play Store](https://play.google.com/store/apps/details?id=com.canal.android.canal&hl=fr≷=US) (Android 5.0 et ultérieurs).\n"
+        },
+        {
+          "question": "Quel est mon identifiant pour me connecter à myCANAL ?",
+          "answer": "Votre identifiant est l'adresse e-mail que vous avez renseigné pour créer votre compte CANAL+.\nEn cas de besoin, nous vous invitons à contacter le Service clients CANAL+ au 08 92 39 39 10.(1)\n"
+        },
+        {
+          "question": "J'ai oublié mon mot de passe CANAL+, comment faire ?",
+          "answer": "1 Je me rends sur le site CANAL+ ou sur mon application mobile.\n2 Je clique sur \"Mot de passe oublié ?\".\n3 Un e-mail m'est automatiquement envoyé. Je clique sur le lien présent dedans pour le réinitialiser.\n4 Je peux maintenant choisir mon nouveau mot de passe.\nSi je ne reçois pas l'e-mail, je patiente quelques minutes et je pense à vérifier mes indésirables ou mes spams.\n"
+        },
+        {
+          "question": "Comment résilier mon abonnement CANAL+ ?",
+          "answer": "Vous pouvez résilier CANAL+ uniquement le 1er mois d'essai sur votre [espace client CANAL+](https://client.canalplus.com/abonnement). Après le 1er mois d'essai, votre offre ne pourra être résiliée avant la date de fin d'engagement (24 mois) c'est à dire à la date d'échéance de votre contrat.\n"
+        },
+        {
+          "question": "Comment contacter CANAL+ ?",
+          "answer": "Pour contacter CANAL+, 2 solutions !\nDepuis l'[Assistance en ligne](https://assistance.canalplus.com/) CANAL+.\nPar téléphone en contactant le Service clients au 08 92 39 39 10.(1)\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC1p000000GmwIGAS",
+      "title": "Souscrire aux offres CANAL+",
+      "requirements": "Mes identifiants espace client\r\nMon décodeur TV Bbox (hors Smart TV)\r\nMa télécommande",
+      "summary": "Grâce aux chaînes CANAL+, vous vivrez les grands rendez-vous cinéma, sport, séries pour votre plus grand plaisir et celui de toute la famille. Vous pouvez souscrire aux offres CANAL+, CANAL+ Ciné Séries, CANAL+ Sport, depuis votre TV, application mobile ou espace client web. On vous explique comment ça marche.",
+      "date": "2024-02-02T14:56:00.000+0000",
+      "targets": {
+        "url_name": "souscription-canal-bbox",
+        "category": "bbox-tv",
+        "breadcrumbs": [
+          "Utiliser vos services Bbox TV",
+          "vod-bouquets-tv-bbox",
+          "tv-bbox"
+        ]
+      },
+      "legal_mentions": "(1) Service facturé 0,35€ par minute + prix d'un appel.",
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/souscription-canal-bbox"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Comment modifier mon adresse e-mail de contact ?",
+          "answer": "Pour modifier mon adresse e-mail de contact depuis mon espace client  :\n1 Depuis mon [espace client](https://www.bouyguestelecom.fr/mon-compte/infosperso) je clique sur \"Mes informations personnelles\".\n2 Dans le champ \"Mes informations\", je clique sur l'icône   située à côté de mon e-mail de connexion et de contact.\n3 Je renseigne ma nouvelle adresse e-mail et clique sur \"Valider\".\n"
+        },
+        {
+          "question": "Comment modifier mon numéro de contact ?",
+          "answer": "Pour modifier mon numéro de contact, je me rends dans mon [espace client](https://www.bouyguestelecom.fr/mon-compte/infosperso) :\n1 Je sélectionne la rubrique \"Mes informations personnelles\".\n2 Dans le champ \"Mes informations\", je clique sur l'icône  à côté de mon numéro de contact.\n3 Je modifie mon numéro de contact (obligatoirement un numéro de mobile français).\n4 Je clique sur \"Valider\". Un e-mail et un SMS de confirmation sur le numéro choisi me sont envoyés.\nDepuis mon [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client) ? Dans \"Compte\" je clique sur \"Mes coordonnées\". Dans \"Mon numéro de contact\" je clique sur le crayon et modifie mon numéro.\n"
+        },
+        {
+          "question": "Est-ce que le changement d'adresse e-mail ou de numéro de contact est gratuit ?",
+          "answer": "La modification de votre numéro de contact ou d'adresse e-mail est bien gratuite !\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC1p000000GmqwGAC",
+      "title": "Modifier mon adresse e-mail ou numéro de téléphone de contact",
+      "requirements": "Mes identifiants espace client",
+      "summary": "Etapes pour modifier l'e-mail et le téléphone de contact sur l'Espace Client Pour garder le contact ou vous alerter, nous devons être sûr que vos coordonnées soient les bonnes. Depuis votre application mobile ou espace client web, vous pouvez modifier rapidement vos données personnelles. Bien sûr c'est totalement gratuit. On vous explique toutes les étapes.",
+      "date": "2021-02-03T09:50:29.000+0000",
+      "targets": {
+        "url_name": "changement-adresse-email-numero-contact",
+        "category": "offre-factures",
+        "breadcrumbs": [
+          "Votre Compte Client en ligne",
+          "espace-client-compte",
+          "offre-factures"
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/changement-adresse-email-numero-contact"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Quels sont les avantages liés à Prime ?",
+          "answer": "De nombreux avantages rien que pour vous.\nLivraison prioritaire, gratuite en France et en Belgique.\nPrime Video en profitant des programmes Amazon Original exclusifs et des milliers de séries et films populaires.\nPrime Music avec l'accès illimité à plus de 2 millions de titres, sans publicité.\nPrime Reading avec l'accès à un catalogue de romans, livres d'actualités, polars ou livres pour enfant.\nPrime Gaming avec des jeux et des contenus exclusifs tous les mois.\nEt en prime ? L'accès prioritaire 30 minutes avant le démarrage officiel des ventes flash éligibles. Vous ne raterez plus aucune promotion phare !\n"
+        },
+        {
+          "question": "A partir de quand puis-je activer mon avantage Prime ?",
+          "answer": "Vous pourrez profiter de votre avantage Prime :\nOffre Bbox : 24 heures après l'activation de votre ligne.\nOffre -26 ans : 31 jours après votre souscription.\n"
+        },
+        {
+          "question": "Comment activer mon avantage Prime si je n'ai pas de compte ? ",
+          "answer": "Prime est offert dans votre offre.\n1 Dans l'e-mail reçu, je clique sur \"Tout ce que vous voulez savoir sur votre nouvelle offre Bbox est ici\" ou sur \"Prime inclus pendant 6 mois, il suffit de les activer pour en profiter\".\n2 Je clique sur \"En l'activant ici\" ou \"Je l'active\".\n3 Je suis redirigé sur Amazon : j'indique mon prénom, nom, e-mail et numéro de mobile ainsi qu'un mot de passe.\n4 Je renseigne le code reçu par SMS et e-mail puis sur \"Créez votre compte Amazon\".\n5 Je clique sur \"Ajouter une carte de crédit ou de débit\" et je renseigne mes coordonnées bancaires (aucun prélèvement ne sera effectué durant les mois offerts).\n6 Je confirme en cliquant sur \"Commencer votre abonnement Prime\" et c'est bon ! Je profite de mon avantage.\n"
+        },
+        {
+          "question": "Comment activer mon avantage Prime si j'ai déjà un compte ? ",
+          "answer": "Prime est offert dans votre offre.\n1 Dans l'e-mail que j'ai reçu, je clique sur \"Tout ce que vous voulez savoir sur votre nouvelle offre Bbox est ici\" ou sur \"Prime inclus pendant 6 mois, il suffit de les activer pour en profiter\".\n2 Ensuite, je clique sur \"En l'activant ici\" ou \"Je l'active\".\n3 Je suis redirigé sur Amazon : je me connecte avec mon e-mail ou numéro de mobile.\n4 J'indique mon mot de passe puis je clique sur \"S'identifier\".\n5 Je renseigne le code reçu par SMS ou par e-mail puis je clique sur \"Soumettre le code\".\n6 Je clique sur \"Activer maintenant\" et c'est bon ! Je profite de mon avantage.\n"
+        },
+        {
+          "question": "Pendant combien de temps puis-je accéder à Prime ?",
+          "answer": "Prime vous est offert :\n6 mois avec votre offre Bbox ou votre forfait Bouygues Telecom 100 Go ou plus souscrit entre le 16/10/2023 et le 15/11/2023.\n12 mois avec votre offre -26 ans.\nA l'issue de vos mois offerts, vous serez automatiquement débité de 6,99€/mois par Prime. L'offre est sans engagement. Vous pouvez résilier votre abonnement Prime à tout moment.\n"
+        },
+        {
+          "question": "J'ai déjà un abonnement Prime, puis-je bénéficier des mois offerts ?",
+          "answer": "C'est bien possible, seulement si vous n'avez pas déjà bénéficié d'une offre promotionnelle au cours des 12 derniers mois ! En utilisant la même adresse e-mail, votre facturation sera suspendue pendant la durée de votre avantage offert.\n"
+        },
+        {
+          "question": "Quelle est la chaîne pour accéder à Prime Video sur ma TV ?",
+          "answer": "Pour accéder à Amazon Prime Video, c'est sur la chaîne 91 de votre décodeur TV Bbox !\nBonne nouvelle ! Vous accédez à l'ensemble des contenus Amazon Originals et à des milliers d'autres films et épisodes de séries populaires.\n"
+        },
+        {
+          "question": "Est-ce que je peux profiter de Prime en dehors de chez moi ?",
+          "answer": "Vous pouvez télécharger vos applications mobiles depuis l'Apple Store ou le Play Store :\nAmazon : [Apple Store](https://apps.apple.com/fr/app/amazon-fr/id358861688) et [Play Store](https://play.google.com/store/apps/details?id=com.amazon.mShop.android.shopping&hl=fr≷=US)\nPrime Video : [Apple Store](https://apps.apple.com/fr/app/amazon-prime-video/id545519333) et [Play Store](https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient&hl=fr≷=US)\nAmazon Music : [Apple Store](https://apps.apple.com/fr/app/amazon-music-podcasts-et-plus/id510855668) et [Play Store](https://play.google.com/store/apps/details?id=com.amazon.mp3&hl=fr≷=US)\n"
+        },
+        {
+          "question": "Que se passe t-il à la fin de la période Prime offerte ?",
+          "answer": "15 jours avant la fin de votre avantage offert, une communication vous sera envoyée par Prime pour vous prévenir que votre compte passera en payant. \n"
+        },
+        {
+          "question": "Est-ce que je conserve Prime si je résilie mon offre Bouygues Telecom ?",
+          "answer": "Si vous résiliez votre offre Bbox avant la fin de votre avantage offert, vous conservez bien votre avantage jusqu'à la fin. \n"
+        },
+        {
+          "question": "Comment annuler mon abonnement Prime ?",
+          "answer": "Prime est offert dans votre offre ? Si vous souhaitez annuler votre abonnement :\n1 Je me connecte sur [Amazon](https://www.amazon.fr/) et je clique sur \"Compte et listes\".\n2 Dans \"Votre compte\", je clique sur \"Prime\".\n3 Dans \"Gérer votre abonnement\"; je clique sur \"Ne pas continuer - Renoncer aux avantages Amazon Prime\".\n4 Je clique sur \"Mettre fin à mes avantages\" puis sur \"Fin d'adhésion\".\n5 Je clique sur \"Annuler et perdre mes avantages\".\n6 Un message de confirmation de résiliation apparaît et confirme à quelle date prend fin mon abonnement.\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC67000000sXvIGAU",
+      "title": "Profiter de tous les avantages Prime inclus",
+      "requirements": "Mes identifiants espace client\r\nMon offre Bbox",
+      "summary": "Avec Prime offert 6 mois dans votre offre Bbox ou 12 mois dans votre offre -26 ans, vous profitez du meilleur du shopping et du divertissement ! Livraison rapide et gratuite, Prime vidéo, Amazon Music, Prime Reading, Prime Gaming et offres exclusives... On vous explique en détail ?",
+      "date": "2023-07-10T07:45:43.000+0000",
+      "targets": {
+        "url_name": "amazon-prime",
+        "category": "bbox-tv",
+        "breadcrumbs": [
+          null,
+          null,
+          null
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/amazon-prime"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Comment utiliser l'Assistant Google de ma télécommande ?",
+          "answer": "Je maintiens appuyé le bouton  de ma télécommande et je dis à haute voix ce que je recherche. Et magie ? L’écran de recherche s’affiche sur ma TV ! Aussi simple que ça.\n"
+        },
+        {
+          "question": "Que puis-je faire avec l'Assistant Google de mon décodeur TV Bbox ?",
+          "answer": "Les fonctions disponibles sont nombreuses !\nAccéder rapidement à mes chaînes, applications et replays : par exemple \"Zappe sur M6\", \"Lance Netflix\".\nRechercher des séries, films, vidéos, acteurs et obtenir des résultats disponibles en VOD, en replay ou encore à venir dans le Programme TV. Il suffit de dire : \"Trouve des comédies romantiques des années 90\", \"Montre moi des films de zombie\", \"Montre moi des films avec Jean Dujardin\", \"Mets La Casa de Papel sur Netflix\".\nConnaître le programme TV à un moment précis ou sur une chaîne précise : en demandant \"Quel film passe à la TV demain\", \"Quelle série passe en ce moment sur TMC\", \"Montre moi le programme TV\".\nAccéder rapidement aux différentes rubriques en disant \"Ouvre les paramètres\", \"Montre-moi mes enregistrements\", \"Ouvre les replays\".\nEcouter de la musique ou de la radio, en demandant \"Mets Virgin Radio\", \"Jouer ma playlist préférée\", \"Mets de la musique sur Spotify\".\nGérer mon quotidien en demandant des résultats sportifs, la météo, des adresses, mes itinéraires, des calculs et plus encore, comme \"Quel est l’itinéraire le plus rapide pour aller à la tour Eiffel en vélo\", \"Est-ce qu'il fait chaud dehors\", \"Quel est le numéro de téléphone de Bouygues Telecom\".\n"
+        },
+        {
+          "question": "Comment paramétrer le contrôle de mes objets connectés ou de mon application de musique ?",
+          "answer": "L'Assistant Google peut être lié à mon application de musique préférée ou contrôler mes appareils domestiques intelligents. Je télécharge l’Assistant Google sur mon mobile ou ma tablette : [Google assistant](https://play.google.com/store/apps/details?id=com.google.android.apps.googleassistant&hl=fr) - [Google Home](https://play.google.com/store/apps/details?id=com.google.android.apps.chromecast.app).\n"
+        },
+        {
+          "question": "Quelles sont les fonctionnalités supplémentaires de ma télécommande Miami voice ?",
+          "answer": "Avec le Bluetooth, je pilote ma TV Bbox Miami sans avoir à viser le décodeur avec ma télécommande. Pratique, je peux ranger mon décodeur Bbox Miami à l’abri des regards : la Miami Voice saura le trouver !\nLa télécommande Bluetooth Miami Voice est reconnue automatiquement par ma Bbox Miami, sans aucun réglage.\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC1p0000008OTIGA2",
+      "title": "Utiliser la fonction Assistant Google de ma télécommande Bbox 4K ou Miami",
+      "requirements": "Mon décodeur TV Bbox 4K ou Miami\r\nMa télécommande\r\nMa TV",
+      "summary": "Avec l'Assistant Google, vous interagissez grâce à votre voix ! La fonction est directement intégrée à votre décodeur TV Bbox 4K ou Miami. Vous pouvez lui demander de découvrir des contenus, de zapper, d’ouvrir des applications, d’écouter de la musique et de contrôler votre maison…C'est très facile, on vous explique comment l'apprivoiser.",
+      "date": "2024-03-12T16:02:38.000+0000",
+      "targets": {
+        "url_name": "google-assistant-Bbox-4K",
+        "category": "bbox-tv",
+        "breadcrumbs": [
+          "Débuter avec votre décodeur Bbox TV",
+          "utiliser-telecommande-bbox",
+          "tv-bbox"
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/google-assistant-Bbox-4K"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Est-il possible de communiquer vers l'étranger depuis la France avec mon mobile ?",
+          "answer": "Avec votre téléphone mobile Bouygues Telecom, vous pouvez :\nappeler tous les pays du monde,\néchanger des SMS avec les opérateurs mobiles français et opérateurs étrangers partenaires,\néchanger des MMS avec seulement les opérateurs mobiles français.\nNous nous réservons le droit de suspendre, ponctuellement, l’accès à certaines destinations pour des raisons techniques ou de sécurité.\n"
+        },
+        {
+          "question": "Comment passer un appel de la France vers l'étranger ? ",
+          "answer": "1 Depuis mon téléphone, je compose le \"00\" ou \"+\".\n2 J'inscris l'indicatif du pays.\n3 Enfin, j'indique le numéro à appeler, sans le préfixe \"0\". Exemple : 00 33 X XX XX XX XX ou + 33 X XX XX XX XX.\n[Consulter les indicatifs par pays](https://bouyguestelecom.my.salesforce.com/sfc/p/24000000Zs0S/a/08000003J5CX/cWrX43r2tMnd_oYu_2wgm9PlkWEWK7rpRMJXV08Sme8)\n"
+        },
+        {
+          "question": "Quels sont les tarifs des appels, SMS et MMS vers l'étranger ?",
+          "answer": "Les tarifs dépendent de votre forfait mobile, de la zone de votre voyage et des accords que nous avons passés avec les opérateurs locaux.Pour communiquer en toute sérénité et réduire votre facture pour vos appels de la France métropolitaine vers l’international, nos options d’appels vers l'étranger peuvent être source d'économies.\n[Je souscris une option](https://www.bouyguestelecom.fr/mon-compte/voirlesoptions?_ga=2.118287113.1884576791.1611742816-1080300663.1605178009&_gac=1.121335162.1608124218.CjwKCAiA_eb-BRB2EiwAGBnXXjNgt7tyENELk-JdjhtfXkXw-PEXvcohdWcgyeQ54O5dLbKlzZE0ZxoCM4QQAvD_BwE#)\nPour connaître les prix de vos communications vers l’étranger, nous vous recommandons de consulter notre [page sur les tarifs internationaux](https://www.assistance.bouyguestelecom.fr/tarifs-communications-internationales).\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC1p000000GmrvGAC",
+      "title": "Communiquer de la France vers l'étranger avec mon mobile",
+      "requirements": "Mes identifiants espace client",
+      "summary": "Passer vos appels, SMS et MMS de la France vers l'étranger Sur cette page, vous retrouverez toutes les informations pour passer vos appels, SMS et MMS de la France vers un correspondant à l'étranger. Vous obtiendrez les réponses à vos questions concernant les tarifs et la facturation.",
+      "date": "2024-03-11T18:36:33.000+0000",
+      "targets": {
+        "url_name": "communiquer-france-vers-etranger",
+        "category": "offre-factures",
+        "breadcrumbs": [
+          "Utiliser votre mobile",
+          "communications-internationales",
+          "mobiles"
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/communiquer-france-vers-etranger"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "J'ai résilié ma ligne, comment restituer mes équipements Bbox ?",
+          "answer": "Décodeur TV, box internet, astuces... Depuis un Point Relais ou via Colissimo (à vos frais), on vous explique tout ce que vous devez nous restituer en détail.\n[Rendre mes équipements](https://www.assistance.bouyguestelecom.fr/s/article/rendre-equipements-bbox)\n"
+        },
+        {
+          "question": "Comment comprendre ma facture de clôture ?",
+          "answer": "Lors de la résiliation de votre abonnement, une dernière facture vient clôturer votre compte. Prorata, frais contractuels, remboursement dû de notre part. Nous vous expliquons en détail sur notre page dédiée. \n[Comprendre ma facture](https://www.assistance.bouyguestelecom.fr/s/article/facture-cloture)\n"
+        },
+        {
+          "question": "Comment régulariser mon paiement ?",
+          "answer": "En tout autonomie, depuis votre application mobile ou espace client web, vous pouvez régulariser votre paiement.\n[Régulariser mon paiement](https://www.assistance.bouyguestelecom.fr/s/article/impaye-facture-forfait)\n"
+        },
+        {
+          "question": "Comment me faire rembourser mes frais de résiliation ?",
+          "answer": "Pour vous faire rembourser vos frais, la résiliation doit être un \"cas de force majeure\". Evènement imprévu de votre vie, un déménagement, un licenciement, un sinistre... On vous détaille, sur notre page dédiée tous les cas possibles.\n[Me faire rembourser](https://www.assistance.bouyguestelecom.fr/s/article/resilier-cas-force-majeure)\n"
+        },
+        {
+          "question": "Comment conserver mon numéro après ma résiliation ?",
+          "answer": "Pour conserver votre numéro, vous devez demander la portabilité. Il vous suffit d’obtenir votre numéro de Relevé d’Identité Opérateur (RIO) et le transmettre à votre nouvel opérateur. On vous aide à comprendre en détail sur notre page dédiée.\n[Conserver mon numéro](https://www.assistance.bouyguestelecom.fr/s/article/changer-operateur-mobile)\n"
+        },
+        {
+          "question": "Comment accéder à mon espace client après ma résiliation ?",
+          "answer": "Nous maintenons l'accès à votre [espace client](https://www.bouyguestelecom.fr/mon-compte/) pendant 3 ans\nDéjà un espace client ? Il vous suffit de vous connecter avec votre adresse e-mail.\nJamais de création ? Vous devez [créer un espace client](https://www.bouyguestelecom.fr/mon-compte/premiere-visite?CallbackURL=https://www.bouyguestelecom.fr/mon-compte) avec un numéro de mobile ou votre adresse e-mail @bbox.\n[Accéder à mon espace client](https://www.bouyguestelecom.fr/mon-compte/)\n"
+        },
+        {
+          "question": "Mes factures sont-elles accessibles après ma résiliation ?",
+          "answer": "Vous gardez bien l'accès à vos factures des 36 derniers mois. \n[J'accède à mes factures](https://www.bouyguestelecom.fr/moncompte)\n"
+        },
+        {
+          "question": " Est-ce que je peux accéder à mes e-mails après ma résiliation ?",
+          "answer": "Depuis votre espace client, vous gardez l'accès à vos e-mails pendant 6 mois. Il vous suffit de vous connecter et le tour est joué !\n[J'accède à mes e-mails](https://www.messagerie.bbox.bouyguestelecom.fr/bbox/auth)\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC08000000CbLeGAK",
+      "title": "Ligne résiliée ? On vous aide pour la suite",
+      "requirements": null,
+      "summary": "Vous venez de résilier votre ligne et vous avez encore des questions ? Restituer vos équipements, accéder à votre facture de clôture, portabilité du numéro, connexion à votre espace client après votre résiliation, accès à vos factures et votre boite e-mail @bbox. Ici, on vous donne toutes les informations nécessaires.",
+      "date": "2023-04-26T13:01:21.000+0000",
+      "targets": {
+        "url_name": "resilier-ligne",
+        "category": "offre-factures",
+        "breadcrumbs": [
+          null,
+          null,
+          null
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/resilier-ligne"
+    }
+  },
+  {
+    "content": {
+      "enriched": [
+        {
+          "question": "Qu'est-ce qu'une eSIM ?",
+          "answer": "Une eSIM est une carte SIM digitale directement intégrée dans mon smartphone et remplace la carte physique. La eSIM regroupe plusieurs avantages !\nLe transfert de mon forfait mobile plus rapidement, sans changer manuellement de carte SIM.\nLe stockage de plusieurs eSIM dans le même smartphone. Bonne nouvelle si je veux allier un usage Pro et perso !\nPlus de sécurité, en cas de vol ou perte de mon mobile personne ne peut retirer la carte SIM.\n"
+        },
+        {
+          "question": "Comment bénéficier de la eSIM ? ",
+          "answer": "Je demande ma eSIM en remplacement de ma carte SIM dans toutes les [boutiques Bouygues Telecom](https://boutiques.bouyguestelecom.fr/bouyguestelecom/fr) ou pour toute nouvelle souscription d'un forfait mobile ou un renouvellement !\nVous souhaitez bénéficier de la eSIM en carte prépayée pour un voyage à l'étranger ? My European SIM est disponible depuis [BouyguesTelecom.fr](https://www.bouyguestelecom.fr/carte-prepayee/vacation-prepaid-plan).\n"
+        },
+        {
+          "question": "Quels sont les téléphones mobiles compatibles eSIM ?",
+          "answer": "Apple, Samsung, Honor, Huawei... Vous retrouverez la liste de mobiles compatibles eSIM en détail sur notre page dédiée.\n[Voir les mobiles](https://www.assistance.bouyguestelecom.fr/s/article/eSIM-mobiles-compatibles)\n"
+        },
+        {
+          "question": "Où-puis récupérer mon QR code pour installer ma eSIM ? ",
+          "answer": "Vous pouvez retrouver votre QR code depuis votre [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client).\n1 Dans \"Lignes\" puis \"Gérer ma ligne\".\n2 Dans l'encart \"Ma eSIM\", je clique sur \"Installer ma eSIM\".\n3 Mon QR code s'affiche ! Je n'ai plus qu'à suivre les étapes pour l'installer.\n"
+        },
+        {
+          "question": "Comment télécharger ma eSIM sur mon iPhone ?",
+          "answer": "Une fois mon forfait souscrit, je dois scanner un QR code sur mon iPhone.\n1 Dans \"Réglages\" je sélectionne \"Données cellulaires\".\n2 Je sélectionne \"Ajouter un forfait cellulaire\".\n3 Je scanne le QR code et j'enregistre mon profil.\n4 J'active ma eSIM sur mon [espace client](https://www.bouyguestelecom.fr/mon-compte/dispatch) pour bénéficier de tous les services. Et c'est terminé !\n"
+        },
+        {
+          "question": "Comment télécharger ma eSIM sur mon mobile Samsung ?",
+          "answer": "Une fois mon forfait souscrit, je dois scanner un QR code sur mon smartphone Samsung.\n1 Je me rends dans les \"Paramètres\" puis je sélectionne \"Connexions\".\n2 Je clique sur \"Gestionnaire de carte SIM\".\n3 Je sélectionne \"Ajout d'un forfait Mobile\", puis \"Ajout via un QR Code\".\n4 Je scanne le QR Code et j'enregistre mon profil.\n5 Je clique sur \"OK\" à la fin du téléchargement de mon profil.\n6 J'active ma eSIM sur mon [espace client](https://www.bouyguestelecom.fr/mon-compte/dispatch) pour bénéficier de tous les services. Et le tour est joué !\n"
+        },
+        {
+          "question": "Comment activer ma eSIM sur mon espace client ?",
+          "answer": "La eSIM s'active de la même manière que son homologue physique :\n1 Depuis mon [espace client](https://www.bouyguestelecom.fr/mon-compte/dispatch) sélectionne la rubrique \"Mes commandes\".\n2 J’accède au suivi de commande de ma ligne mobile.\n3 Je clique sur \"Activer\".\nL'activation de ma eSIM intervient dans un délai maximum de 6h après la demande d'activation. Bien évidemment, je serai notifié de l'activation de ma ligne.\n"
+        },
+        {
+          "question": "Est-ce que l'activation de ma eSIM est immédiate ?",
+          "answer": "Le délai dépend d'où vous vous situez.\nEn France : votre eSIM sera active 6h maximum après votre demande.\nA l'étranger : votre eSIM sera active à votre arrivée en France.\n"
+        },
+        {
+          "question": "Comment faire avec ma eSIM si je dois laisser mon téléphone en réparation ?",
+          "answer": "Contrairement à une carte SIM classique, la eSIM ne peut être retirée physiquement de votre téléphone. Si votre mobile est cassé ou en panne, il faudra supprimer le profil eSIM avant de le déposer en réparation. Une nouvelle carte eSIM vous sera donnée avec le téléphone après réparation dans toutes les boutiques Bouygues Telecom. \n"
+        },
+        {
+          "question": "Puis-je transférer ma eSIM si je change de téléphone ?",
+          "answer": "Bonne nouvelle ! Le QR code est réutilisable ! Si je change de mobile compatible, je n'ai pas besoin de faire une nouvelle demande. Je retrouve mon QR code sur mon support eSIM ou dans mon [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client).\n\nPour transférer mon profil d'un téléphone à l'autre :\n1 Je me connecte à Internet en WiFi (le transfert d'eSIM sans WiFi est impossible).\n2 J'efface mon profil eSIM du 1er téléphone.\n3 Je scanne le QR code sur le 2e téléphone compatible eSIM (quelques minutes peuvent être nécessaires pour télécharger de nouveau mon profil eSIM). Difficile de faire plus simple !\nLe code PIN sera réinitialisé par défaut.\n"
+        },
+        {
+          "question": "Comment supprimer mon profil eSIM sur mon iPhone ?",
+          "answer": "Pour supprimer mon profil eSIM de mon iPhone, je dois effacer ma carte eSIM. Mon smartphone doit être connecté à Internet en WiFi.\n1 Je me rends dans \"Réglages\".\n2 Je clique sur \"Données cellulaires ou Données mobiles\".\n3 Je sélectionne \"Forfaits Cellulaires\".\n4 Je clique sur \"Supprimer le forfait cellulaire\".\n"
+        },
+        {
+          "question": "Comment supprimer mon profil eSIM sur mon smartphone Samsung ?",
+          "answer": "Pour supprimer mon profil eSIM de mon smartphone Samsung, je dois effacer ma carte eSIM. Mon téléphone mobile doit être connecté à Internet en WiFi.\n1 Je me rends dans les \"Paramètres\" puis je sélectionne \"Connexions\".\n2 Je clique sur \"Gestionnaire de carte SIM\".\n3 Je sélectionne le forfait mobile que je souhaite effacer.\n4 Je clique sur \"Suppression\".\n5 Je confirme ma demande en cliquant sur \"Réinitialisation\".\n"
+        },
+        {
+          "question": "J'ai bloqué ma eSIM, comment obtenir mon code PUK ?",
+          "answer": "Je retrouve mon code PUK de 2 façons !\nDepuis mon [application mobile](https://www.assistance.bouyguestelecom.fr/s/application-mobile-espace-client) dans \"Lignes\" puis \"Gérer ma ligne\" > \"Gérer ma carte\" puis \"Code PUK\".\nSur mon [espace client](https://www.bouyguestelecom.fr/mon-compte/pinpuk/10068258718) dans \"Changer et Dépanner\" puis \"Gérer la carte SIM (ou eSIM)\" et enfin \"Code PUK\".\nSi j'ai une carte prépayée Travel SIM – My european travel SIM, je retrouve mon code PUK sur l'e-mail de souscription.\n"
+        },
+        {
+          "question": "Est-ce que les montres connectées sont compatibles avec la eSIM ?",
+          "answer": "Les objets connectés comme la Smart Watch ou l'Apple Watch sont actuellement incompatibles avec la eSIM.\n"
+        }
+      ]
+    },
+    "meta": {
+      "knowledge_article_id": "kAC1p000000blKWGAY",
+      "title": "Tout savoir sur la eSIM",
+      "requirements": "Mon téléphone Samsung, Huawei, Google ou mon iPhone\r\nMes identifiants espace client\r\nMa carte eSIM (code PUK)",
+      "summary": "Qu'est-ce que la eSIM, les modèles de téléphones compatibles Vous vous interrogez sur la eSIM ? De quoi s'agit-il ? Comment fonctionne-t-elle ? Configuration, activation, mobiles compatibles, code PUK... Nos réponses à toutes vos questions sont juste ici !",
+      "date": "2024-03-08T15:36:07.000+0000",
+      "targets": {
+        "url_name": "Tout-savoir-sur-la-e-Sim",
+        "category": "mobile",
+        "breadcrumbs": [
+          "Utiliser votre mobile",
+          "mode-emploi",
+          "mobiles"
+        ]
+      },
+      "legal_mentions": null,
+      "url": "https://www.assistance.bouyguestelecom.fr/s/article/Tout-savoir-sur-la-e-Sim"
+    }
+  }]
