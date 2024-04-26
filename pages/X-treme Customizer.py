@@ -23,9 +23,8 @@ def custom(instruction:str, content:str) -> str:
     CONTEXT:
         Here if an extract from an article in the FAQ section of the website. This article is designed to help customers resolving their issues regarding network, billing problems, technical problems with the mobile, technical problems with the box, etc.
     OBJECTIVE:
-        {instruction}
-        All text must remain in french.
-    ARTICLE:
+        All text must remain in french. You must apply this instruction on the extract ONLY : {instruction}
+    EXTRACT:
         {content} 
     
     """ # noqa E501
