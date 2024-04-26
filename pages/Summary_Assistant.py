@@ -29,7 +29,7 @@ def summary_4(content:str) -> str:
     
     """ # noqa E501
     #load_dotenv()
-    azure_ad_token = st.secrets('TOKEN_OPENAI_GPT4')
+    azure_ad_token = st.secrets.TOKEN_OPENAI_GPT4
     llm_4 = AzureChatOpenAI(
         deployment_name="poc-aar-sgdy-gpt4-turbo",
         temperature=0,
