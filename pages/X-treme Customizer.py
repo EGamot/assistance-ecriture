@@ -8,8 +8,8 @@ from langchain.prompts import PromptTemplate
 from langchain_core.prompts.chat import PromptTemplate
 
 import streamlit as st
-from dotenv import load_dotenv
-import os
+#from dotenv import load_dotenv
+#import os
 
 # Page title
 st.sidebar.header("X-treme Customizer")
@@ -29,8 +29,8 @@ def custom(instruction:str, content:str) -> str:
         {content} 
     
     """ # noqa E501
-    load_dotenv()
-    azure_ad_token = os.getenv('TOKEN_OPENAI_GPT4')
+    #load_dotenv()
+    azure_ad_token = st.secrets.TOKEN_OPENAI_GPT4
     llm_4 = AzureChatOpenAI(
         deployment_name="poc-aar-sgdy-gpt4-turbo",
         temperature=0,
