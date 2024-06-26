@@ -12,7 +12,6 @@ import streamlit as st
 #import os
 import re
 
-
 # Page title
 st.sidebar.header("Judge Title")
 st.title('Judge Title')
@@ -21,6 +20,9 @@ progress_bar = st.sidebar.progress(0)
 
 st.write("A partir de l'URL d'un article, le LLM évalue la cohérence et l'aspect user-friendly de chacun des titres-questions par rapport au contenu du paragraphe correspondant.")
 st.write("Si la question ne lui paraît pas pertinente par rapport au texte, il en suggère d'autres.")
+
+type = st.radio("Je veux appliquer sur :",
+         ["un texte", "une page"])
 
 def progressbar(value):
     if value <= 0.25 :
@@ -58,8 +60,8 @@ def title_4(title: str, question: str, answer: str) -> str:
     Text :  {answer} 
     
     """ # noqa E501
-    #load_dotenv()
-    azure_ad_token = st.secrets.TOKEN_OPENAI_GPT4
+    load_dotenv()
+    azure_ad_token = os.getenv('TOKEN_OPENAI_GPT4')
     llm_4 = AzureChatOpenAI(
         deployment_name="poc-aar-sgdy-gpt4-turbo",
         temperature=0,
@@ -100,21 +102,43 @@ class JSONLoader(BaseLoader):
         return docs
     
 #load documents
-file_path = "source/enriched_articles_05.json"
+file_path = r"source/enriched_articles_05.json"
 loader = JSONLoader(file_path = file_path)
 data_sample = loader.load()
 
+if type == "une page":
 # Text input
-url = st.text_area('Enter your url', '', height=50)
-if url != '':
-    chunks = [chunk for chunk in data_sample if chunk.metadata['url'] == url]
-    nb = len(chunks)
-    for i,chunk in enumerate(chunks) :
-        st.write(chunk.metadata['subtitle'])
-        with st.spinner('Wait for it...'):
-            answer = title_4(title = chunk.metadata['title'], question = chunk.metadata['subtitle'], answer = chunk.text)
-            tag = re.findall(r'\[(.*)\]', answer)
-            explanation = re.sub(r'\[.*\]', '', answer)
+    url = st.text_area('Enter your url', '', height=50)
+    if url != '':
+        chunks = [chunk for chunk in data_sample if chunk.metadata['url'] == url]
+        nb = len(chunks)
+        for i,chunk in enumerate(chunks) :
+            st.write(chunk.metadata['subtitle'])
+            with st.spinner('Wait for it...'):
+                response = title_4(title = chunk.metadata['title'], question = chunk.metadata['subtitle'], answer = chunk.text)
+                tag = re.findall(r'\[(.*)\]', response)
+                explanation = re.sub(r'\[.*\]', '', response)
+                if tag[0] == 'appropriate':
+                    st.markdown(''' :green[APPROPRIATE]''')
+                    st.write(explanation)
+                elif tag[0] == 'mixed':
+                    st.markdown(''' :orange[MIXED]''')
+                    st.write(explanation)
+                elif tag[0] == 'inappropriate':
+                    st.markdown(''' :red[INAPPROPRIATE]''')
+                    st.write(explanation)
+            st.divider()
+            progress_bar.progress((i+1)/nb, progressbar((i+1)/nb))
+        progress_bar.progress(100, "Ouf, terminé !")
+if type == "un texte":
+    topic = st.text_area("Entrez le sujet de l'article (important pour donner du contexte !)", "", height=50)
+    question = st.text_area("Entrez la question à tester", "", height = 50)
+    answer = st.text_area("Entrez la réponse correspondante", "", height=500)
+    if question != '' and answer != '':
+        with st.spinner('Wait for it'):
+            response = title_4(title = topic, question=question, answer=answer)
+            tag = re.findall(r'\[(.*)\]', response)
+            explanation = re.sub(r'\[.*\]', '', response)
             if tag[0] == 'appropriate':
                 st.markdown(''' :green[APPROPRIATE]''')
                 st.write(explanation)
@@ -124,6 +148,3 @@ if url != '':
             elif tag[0] == 'inappropriate':
                 st.markdown(''' :red[INAPPROPRIATE]''')
                 st.write(explanation)
-        st.divider()
-        progress_bar.progress((i+1)/nb, progressbar((i+1)/nb))
-    progress_bar.progress(100, "Ouf, terminé !")
