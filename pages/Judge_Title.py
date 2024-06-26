@@ -102,7 +102,7 @@ class JSONLoader(BaseLoader):
         return docs
     
 #load documents
-file_path = r"source/enriched_articles_05.json"
+file_path = r"source/enriched_articles_999.json"
 loader = JSONLoader(file_path = file_path)
 data_sample = loader.load()
 
