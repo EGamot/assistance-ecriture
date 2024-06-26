@@ -15,7 +15,7 @@ import streamlit as st
 st.sidebar.header("X-treme Customizer")
 st.title('X-treme Customizer')
 
-st.write("Sur cette page, vous pouvez appliquer le prompt de votre choix sur un article comme par exemple : "Recopie le texte en mettant les mots-clés en gras", "Propose une réécriture de ce texte avec un ton plus détendu", etc...)
+st.write("Sur cette page, vous pouvez appliquer le prompt de votre choix sur un article comme par exemple : 'Recopie le texte en mettant les mots-clés en gras', 'Propose une réécriture de ce texte avec un ton plus détendu', etc...")
 st.write("Dans un premier temps, vous copiez l'URL de la page de votre choix. Le titre de l'article s'affiche à l'écran. Puis vous pouvez entrer les instructions pour le LLM et enfin sélectionner la partie du texte sur laquelle les instructions doivent être appliquées.")
 
 def custom(instruction:str, content:str) -> str:
