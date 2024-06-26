@@ -15,8 +15,16 @@ import streamlit as st
 st.sidebar.header("X-treme Customizer")
 st.title('X-treme Customizer')
 
-st.write("Sur cette page, vous pouvez appliquer le prompt de votre choix sur un article comme par exemple : 'Recopie le texte en mettant les mots-clés en gras', 'Propose une réécriture de ce texte avec un ton plus détendu', etc...")
-st.write("Dans un premier temps, vous copiez l'URL de la page de votre choix. Le titre de l'article s'affiche à l'écran. Puis vous pouvez entrer les instructions pour le LLM et enfin sélectionner la partie du texte sur laquelle les instructions doivent être appliquées.")
+st.write('Sur cette page, vous pouvez appliquer le prompt de votre choix sur un article.')
+
+st.markdown("""
+            1. Copiez l'URL de la page de votre choix : le titre de l'article s'affiche à l'écran.  
+            2. Sélectionnez la partie du texte sur laquelle les instructions doivent être appliquées : titre, contenu, résumé, etc...  
+            3. Entrez les instructions pour le LLM, comme par exemple : 'Recopie le texte en mettant les mots-clés en gras', 'Propose une réécriture de ce texte avec un ton plus détendu', etc... 
+            4. Cliquez sur le bouton 'Go !' et c'est parti ! """)
+
+st.write('')
+
 
 def custom(instruction:str, content:str) -> str:
     CUSTOM_TEMPLATE = """You are an assistant writer for Bouygues Telecom, a telecommunications operator in France.
@@ -85,33 +93,34 @@ data_sample = loader.load()
 
 url = st.text_area('Enter your url', '', height=50)
 
-if url!= '':
+if url != '':
     chunks = [chunk for chunk in data_sample if chunk.metadata['url'] == url]
     titre = chunks[0].metadata['title']
     summary = chunks[0].metadata['summary']
 
     st.container(border = True).write(titre)
 
-    instruction = st.text_area('Ecrivez vos instructions :', '', height=400)
-
-    if instruction != '':
-        extract = st.selectbox(
+    extract = st.selectbox(
             "Sur quelle partie de l'article souhaitez-vous appliquer le LLM ?",
             ('Tout le contenu, titre et résumé inclus', 'Le titre', 'Le résumé', 'Les questions/réponses', "Résumé et questions/réponses")
         )
-        
-        if st.button('Go !'):
-            with st.spinner("Wait for it..."):
-                if extract == 'Tout le contenu, titre et résumé inclus':
-                    content = [titre] + [summary] + [chunk.text for chunk in chunks]
-                elif extract == 'Le titre':
-                    content = titre
-                elif extract == 'Le résumé':
-                    content = summary
-                elif extract == 'Les questions/réponses':
-                    content = chunks
-                elif extract == "Résumé et questions/réponses":
-                    content = [summary] + chunks
-                answer = custom(content, instruction)
+    if extract == 'Tout le contenu, titre et résumé inclus':
+        content = [titre] + [summary] + [chunk.text for chunk in chunks]
+    elif extract == 'Le titre':
+        content = titre
+    elif extract == 'Le résumé':
+        content = summary
+    elif extract == 'Les questions/réponses':
+        content = chunks
+    elif extract == "Résumé et questions/réponses":
+        content = [summary] + chunks
 
+    instruction = st.text_area('Ecrivez vos instructions :', '', height=400)
+
+    if st.button('Go !'):
+        if instruction != '' :
+            with st.spinner("Wait for it..."):
+                answer = custom(content, instruction)
             st.write(answer)
+        else :
+            st.write("Il faut entrer des instructions !")
