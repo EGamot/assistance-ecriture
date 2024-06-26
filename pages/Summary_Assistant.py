@@ -8,8 +8,6 @@ from langchain.prompts import PromptTemplate
 from langchain_core.prompts.chat import PromptTemplate
 
 import streamlit as st
-#from dotenv import load_dotenv
-#import os
 
 # Page title
 st.sidebar.header("Summary Assistant")
@@ -70,7 +68,7 @@ class JSONLoader(BaseLoader):
         return docs
     
 #load documents
-file_path = r"source\enriched_articles_05.json"
+file_path = r"source/enriched_articles_05.json"
 loader = JSONLoader(file_path = file_path)
 data_sample = loader.load()
 
