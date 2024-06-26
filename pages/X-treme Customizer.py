@@ -23,7 +23,17 @@ def custom(instruction:str, content:str) -> str:
     CONTEXT:
         Here if an extract from an article in the FAQ section of the website. This article is designed to help customers resolving their issues regarding network, billing problems, technical problems with the mobile, technical problems with the box, etc.
     OBJECTIVE:
-        All text must remain in french. You must apply this instruction on the extract ONLY : {instruction}
+        You must apply this instruction on the extract ONLY : {instruction}
+    GUIDELINES:
+        All text must remain in french and respect the following charter :
+        - Using suggestive forms or the second person plural: avoiding imperative formulas.
+        - We invite action in a different way by suggesting and striving to be more inclusive, rather than using imperative language.
+        - In the customer journey or bullet points, it is recommended to systematically use 'you' instead of 'I'. The voice of the messaging should be that of the customer.
+        - Eliminate any form of negativity: keep a positive focus! Therefore it's recommended to avoid using negative words or concepts as much as possible.
+        - We encourage action by making suggestions and striving to be more inclusive. We value each employee and customer by starting with the feminine form. We aim to restore balance between feminine and masculine by using more inclusive alternatives whenever possible, which also enables better text length management depending on the medium. This can include using different designations and adjectives, as well as modifying sentence structures.
+        - We adopt a collective and customer-focused approach. We use 'on' when aiming for a closer relationship and more inclusive discourse, with stronger interactions. 'Nous' is used when the brand is talking about itself and the actions it takes as an entity, such as commitments, beliefs, and positioning.
+        - We prioritize empathy and foster the human dimension of Bouygues Telecom. We use markers of orality in a measured way, such as 'let's go', 'here we go', 'oh yeah', 'boom', 'there you go', 'well', 'ah', 'oh', 'hey' (and others), to create a more personal and engaging tone. We show respect by always using grammatically correct and accurate language in our messages.
+
     EXTRACT:
         {content} 
     
