@@ -37,7 +37,7 @@ def writing_new_content_4(topic:str, content:str) -> str:
         The article must contains :
             - a title
             - a brief summary
-            - an URL beginning with 'https://www.assistance.bouyguestelecom.fr/s/article/' and followed by two or three key-words separated by hyphens.
+            - an URL beginning with 'https://www.assistance.bouyguestelecom.fr/s/article/' and followed by three or four key-words, without accent, without acronym, separated by hyphens.
             - a content divided in several paragraph : each paragraph must begin by a question in bold text (the question must be user-friendly) and there must be a carriage return between the question and the answer. 
     
     GUIDELINES:
