@@ -38,7 +38,7 @@ def writing_new_content_4(topic:str, content:str) -> str:
             - a title
             - a brief summary
             - an URL beginning with 'https://www.assistance.bouyguestelecom.fr/s/article/' and followed by two or three key-words separated by hyphens.
-            - a content divided in several paragraph : each paragraph must begin by a question (the question must be user-friendly) and there must be a carriage return between the question and the answer. 
+            - a content divided in several paragraph : each paragraph must begin by a question in bold text (the question must be user-friendly) and there must be a carriage return between the question and the answer. 
     
     GUIDELINES:
         The text must respect the following charter :
