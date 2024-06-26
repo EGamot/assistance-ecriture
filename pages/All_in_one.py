@@ -8,6 +8,8 @@ import streamlit as st
 from pages.Judge_Title import title_4
 from pages.Summary_Assistant import summary_4
 from pages.Spelling_Checker import coherence_spelling_4
+
+from dotenv import load_dotenv
 import re
 
 
