@@ -8,8 +8,8 @@ from langchain.prompts import PromptTemplate
 from langchain_core.prompts.chat import PromptTemplate
 
 import streamlit as st
-#from dotenv import load_dotenv
-#import os
+from dotenv import load_dotenv
+import os
 import re
 
 # Page title
