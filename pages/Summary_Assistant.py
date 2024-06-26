@@ -77,7 +77,6 @@ data_sample = loader.load()
 # Text input
 if type == "une page":
     link = st.text_area("Entrez l'URL", '', height=50)
-
     if link != '':
         chunks = [chunk.text for chunk in data_sample if chunk.metadata['link'] == link]
         old_title = [chunk for chunk in data_sample if chunk.metadata['link'] == link][0].metadata['title']
