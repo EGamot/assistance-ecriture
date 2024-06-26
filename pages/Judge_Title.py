@@ -108,7 +108,7 @@ data_sample = loader.load()
 
 if type == "une page":
 # Text input
-    url = st.text_area('Entrez l'URL de la page', '', height=50)
+    url = st.text_area("Entrez l'URL de la page", '', height=50)
     if url != '':
         chunks = [chunk for chunk in data_sample if chunk.metadata['url'] == url]
         nb = len(chunks)
