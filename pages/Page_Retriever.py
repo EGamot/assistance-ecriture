@@ -1,6 +1,7 @@
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from llama_index.retrievers.bm25 import BM25Retriever
 from llama_index.core.node_parser import LangchainNodeParser
+from llama_index.core.schema import TextNode
 
 import streamlit as st
 from st_pages import add_page_title
