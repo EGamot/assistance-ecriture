@@ -17,13 +17,24 @@ st.write("A partir d'un mot-clé, on retrouve tous les articles correspondant.")
 
 parser = LangchainNodeParser(RecursiveCharacterTextSplitter())
 nodes_text = parser.get_nodes_from_documents(data_sample)
-
+nodes = [TextNode(
+            text=nodes_text[i].metadata["subtitle"] + " : " + nodes_text[i].text,
+            id_=nodes_text[i].id_,
+            metadata={
+                'category': nodes_text[i].metadata['category'],
+                'subtitle': nodes_text[i].metadata['subtitle'],
+                'title': nodes_text[i].metadata['title'],
+                'url': nodes_text[i].metadata["url"]
+            }
+        )
+            for i in range(len(nodes_text))
+        ]
 # Text input
 query = st.text_area('Enter your keyword', '', height=50)
 
 if query != '':
     with st.spinner("Wait for it..."):
-        BM25retriever = BM25Retriever.from_defaults(nodes=nodes_text, similarity_top_k=200)
+        BM25retriever = BM25Retriever.from_defaults(nodes=nodes, similarity_top_k=200)
         nodes_query = BM25retriever.retrieve(query)
         links={}
         for node in [node for node in nodes_query if node.score>0.0] :
