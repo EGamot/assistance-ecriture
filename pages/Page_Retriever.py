@@ -37,7 +37,7 @@ if query != '':
     with st.spinner("Wait for it..."):
         BM25retriever = BM25Retriever.from_defaults(nodes=nodes, similarity_top_k=200)
         nodes_query = BM25retriever.retrieve(query)
-        st.write(nodes_query)
+        st.write([node.metadata['subtitle'] + ' : ' + str(node.score) + '\n' for node in nodes_query if node.score>0.0])
         links={}
         for node in [node for node in nodes_query if node.score>0.0] :
             if node.metadata['url'] in list(links):
