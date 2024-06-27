@@ -1,20 +1,16 @@
-import json
-from pathlib import Path
-from typing import List, Optional, Union
-from llama_index.core.schema import Document
-from langchain.document_loaders.base import BaseLoader
-from langchain_openai import AzureChatOpenAI
+import streamlit as st
 from langchain.prompts import PromptTemplate
 from langchain_core.prompts.chat import PromptTemplate
 
-import streamlit as st
-from dotenv import load_dotenv
-import os
+from source.model_settings import llm_4
+from source.knowledge_load import data_sample
 import re
 
-# Page title
-st.sidebar.header("Judge Title")
-st.title('Judge Title')
+from st_pages import add_page_title
+
+# Either this or add_indentation() MUST be called on each page in your
+# app to add indendation in the sidebar
+add_page_title()
 
 progress_bar = st.sidebar.progress(0)
 
@@ -60,55 +56,14 @@ def title_4(title: str, question: str, answer: str) -> str:
     Text :  {answer} 
     
     """ # noqa E501
-    load_dotenv()
-    azure_ad_token = os.getenv('TOKEN_OPENAI_GPT4')
-    llm_4 = AzureChatOpenAI(
-        deployment_name="poc-aar-sgdy-gpt4-turbo",
-        temperature=0,
-        openai_api_version="2024-02-15-preview",
-        azure_endpoint="https://poc-aar-sgdy.openai.azure.com/",
-        openai_api_key=azure_ad_token) #gitleaks:allow
-    
     title_prompt = PromptTemplate.from_template(TITLE_TEMPLATE)
     title_chain_4 = title_prompt | llm_4
     res = title_chain_4.invoke({"title" : title, "question": question, "answer":answer})
     return res.content
 
-class JSONLoader(BaseLoader):
-    def __init__(
-        self,
-        file_path: Union[str, Path],
-        content_key: Optional[str] = None,
-        ):
-        self.file_path = Path(file_path).resolve()
-        self._content_key = content_key
-    def load(self) -> List[Document]:
-        """Load and return documents from the JSON file."""
-        docs = []
-        # Load JSON file
-        with open(self.file_path, encoding='utf-8') as file:
-            data = json.load(file)
-        for bloc in data: 
-            for question in bloc["content"]["enriched"]:
-                metadata_title = bloc["meta"]["title"]
-                metadata_category = bloc["meta"]["targets"]["category"] 
-                if metadata_category is None:
-                    continue
-                metadata_url = bloc["meta"]["url"]
-                titre = question["question"]
-                answers = question["answer"]
-                text = metadata_title + ' : ' + titre + ' ' + answers
-                docs.append(Document(text = answers, metadata = {"category": metadata_category, "title": metadata_title, "subtitle": titre, "url": metadata_url}))               
-        return docs
-    
-#load documents
-file_path = r"source/enriched_articles_999.json"
-loader = JSONLoader(file_path = file_path)
-data_sample = loader.load()
-
 if type == "une page":
 # Text input
-    url = st.text_area("Entrez l'URL de la page", '', height=50)
+    url = st.text_area('Enter your url', '', height=50)
     if url != '':
         chunks = [chunk for chunk in data_sample if chunk.metadata['url'] == url]
         nb = len(chunks)
